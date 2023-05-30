@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="toastError">Empty or Incorrect Value(s)!</string>
+</resources>

@@ -1,0 +1,835 @@
+# Output file for copy utility test cases
+
+# Test Case 1: Copying a file successfully
+Test Case 1
+Size                                             :  Small
+Number of occurrences of the pattern in the file :  One
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  More than one
+Presence of enclosing quotes                     :  Enclosed
+Presence of blanks                               :  None
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  Present
+
+# Test Case 2: Read-only destination folder
+Test Case 2
+Size                                             :  Large
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  More than one
+Presence of enclosing quotes                     :  Not enclosed
+Presence of blanks                               :  One
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  Present
+
+# Test Case 3: Non-existent source file
+Test Case 3
+Size                                             :  Empty
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  More than one
+Presence of enclosing quotes                     :  Enclosed
+Presence of blanks                               :  One
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  Not present
+
+# Test Case 4: Empty source file
+Test Case 4
+Size                                             :  Empty
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  None
+Presence of enclosing quotes                     :  Not enclosed
+Presence of blanks                               :  None
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  not Present
+
+# Test Case 5: Destination folder with insufficient permissions
+Test Case 5
+Size                                             :  Medium
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  Two
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  More than one
+Presence of enclosing quotes                     :  Enclosed
+Presence of blanks                               :  One
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  not Present
+
+# Test Case 6: Destination folder is a symbolic link
+Test Case 6
+Size                                             :  Small
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file              :  Random
+Length of the pattern                            :  More than one
+Presence of enclosing quotes                     :  Not enclosed
+Presence of blanks                               :  One
+Presence of quotes within the pattern            :  None
+Presence of a file corresponding to the name     :  Present
+
+# Test Case 7: Source file is a symbolic link
+Test Case 7
+Size                                             :  Large
+Number of occurrences of the pattern in the file :  None
+Number of occurrences of the pattern in one line :  None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Not enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 8: Source and destination files are the same
+Test Case 8
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 9: Destination file already exists
+Test Case 9
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 10: Source file is a directory
+Test Case 10
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 11: Copying multiple files successfully
+Test Case 11
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : One
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Open
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : not Present
+
+Test Case 12: Source file has insufficient permissions
+Test Case 12
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : One
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 13: Destination file has insufficient permissions
+Test Case 13
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : One
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 14: Source file is a FIFO
+Test Case 14
+
+Size : medium
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : one
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : Two
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 15: Destination file is a FIFO
+Test Case 15
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 16: Source file is a symbolic link
+Test Case 16
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 17: Destination file is a symbolic link
+Test Case 17
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 18: Source file is a device file
+Test Case 18
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 19: Destination file is a device file
+Test Case 19
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 20: Source file is a named pipe
+Test Case 20
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 21: Destination file is a named pipe
+Test Case 21
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 22: Source file is a socket file
+Test Case 22
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : Two
+Position of the pattern in the file : Random
+Length of the pattern : less than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 23: Destination file is a socket file
+Test Case 23
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 24: Source file is a binary file
+Test Case 24
+Size : small
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : two
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 25: Destination file is a binary file
+Test Case 25
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 26: Source file is an empty file
+Test Case 26
+Size : Empty
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : None
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 27: Destination file is an empty file
+Test Case 27
+Size : Empty
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file :Random
+Length of the pattern : None
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 28: Source file and destination file are same
+Test Case 28
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 29: Both source and destination are directories
+Test Case 29
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : One
+Position of the pattern in the file : Random
+Length of the pattern : More than one
+Presence of enclosing quotes : Open
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Absent
+
+Test Case 30: Source file name is too long
+Test Case 30
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than maximum file name length
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 31: Destination file name is too long
+Test Case 31
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : More than maximum file name length
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 32: Source file name contains special characters
+Test Case 32
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 33: Destination file name contains special characters
+Test Case 33
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 34: Source file name is invalid
+Test Case 34
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 35: Destination file name is invalid
+Test Case 35
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 36: Source file is binary
+Test Case 36
+Size : Large
+Number of occurrences of the pattern in the file : Two
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : One
+Presence of a file corresponding to the name : Present
+
+Test Case 37: Destination file already exists
+Test Case 37
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 38: Destination directory does not exist
+Test Case 38
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 39: Source directory does not exist
+Test Case 39
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 40: Source file is empty
+Test Case 40
+Size : Empty
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : None
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 41: Destination file is empty
+Test Case 41
+Size : Empty
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : None
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 42: Source and destination are the same file
+Test Case 42
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 43: Destination file has special characters in its name
+Test Case 43
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 44: Source file has special characters in its name
+Test Case 44
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 45: Source file has read-only permissions
+Test Case 45
+Size : medium
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : not Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : not Present
+
+Test Case 46: Destination file has read-only permissions
+Test Case 46
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 47: Source file is a symbolic link
+Test Case 47
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : One
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Open
+Presence of blanks : three
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Absent
+
+Test Case 48: Destination file is a symbolic link
+Test Case 48
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 49: Source file is a directory
+Test Case 49
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Not present
+
+Test Case 50: Destination file is a directory
+Test Case 50
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 51: Destination file already exists and is writable
+Test Case 51
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 52: Destination file already exists and is read-only
+Test Case 52
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 53: Source file and destination file have the same content
+Test Case 53
+Size : small
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 54: Source file and destination file have different content
+Test Case 54
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 55: Copy multiple source files to a single destination
+Test Case 55
+Size : Large
+Number of occurrences of the pattern in the file : Multiple
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 56: Copy a single source file to multiple destinations
+Test Case 56
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 57: Copy multiple source files to multiple destinations
+Test Case 57
+Size : Large
+Number of occurrences of the pattern in the file : Multiple
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 58: Copy a file with non-ASCII characters in the filename
+Test Case 58
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random with non-ASCII characters
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 59: Copy a file with long filename
+Test Case 59
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Very long filename
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present
+
+Test Case 60: Copy a file with no read permission
+Test Case 60
+Size : Large
+Number of occurrences of the pattern in the file : One
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the pattern : Random
+Presence of enclosing quotes : Open
+Presence of blanks : None
+Presence of quotes within the pattern : Two
+Presence of a file corresponding to the name : Absent
+
+Test Case 61: Copy a file with no write permission
+Test Case 61
+Size : Large
+Number of occurrences of the pattern in the file : None
+Number of occurrences of the pattern in one line : None
+Position of the pattern in the file : Random
+Length of the the pattern : Random
+Presence of enclosing quotes : Enclosed
+Presence of blanks : None
+Presence of quotes within the pattern : None
+Presence of a file corresponding to the name : Present, but no read permission
+
+Test Case 62: Copy a file with no read permission
+Size: Small
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 63: Copy a file to a destination that already exists and has the same contents
+Size: Large
+Number of occurrences of the pattern in the file: Two
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 64: Copy a file to a destination that already exists and has different contents
+Size: medium
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: One
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Absent
+
+Test Case 65: Copy a directory with no read permission
+Size: Large
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 66: Copy a directory with no write permission
+Size: Small
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 67: Copy a directory to a destination that already exists and has the same contents
+Size: Large
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 68: Copy a directory to a destination that already exists and has different contents
+Size: Small
+Number of occurrences of the pattern in the file: None
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: N/A
+Presence of enclosing quotes: Not applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 69: Copy a file with a long name
+Size: Small
+Number of occurrences of the pattern in the file: Three
+Number of occurrences of the pattern in one line: None
+Position of the pattern in the file: Random
+Length of the pattern: Greater than 30 characters
+Presence of enclosing quotes : applicable
+Presence of blanks: Not applicable
+Presence of quotes within the pattern: Not applicable
+Presence of a file corresponding to the name: Present
+
+Test Case 70: Copy a file with a random pattern in a single line with one blank space
+Size: Small
+Number of occurrences of the pattern in the file: Two
+Number of occurrences of the pattern in one line: One
+Position of the pattern in the file: Random
+Length of the pattern: Random
+Presence of enclosing quotes: enclosed
+Presence of blanks: One
+Presence of quotes within the pattern: None
+Presence of a file corresponding to the name: present
+
+
